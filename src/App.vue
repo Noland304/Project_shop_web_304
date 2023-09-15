@@ -1,6 +1,6 @@
 <script setup>
 import { ref,computed  } from 'vue';
-const list_local = ref([
+const list_local = ref([ 
 
 
 ]);
