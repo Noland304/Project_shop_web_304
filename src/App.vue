@@ -80,14 +80,14 @@ function booking(name){
 
 
 const travelList = ref([
-{name:'เขา', price:500 , img:"src/assets/pukaw.jpg"},
-{name:'ทะเล', price:600, img:"src/assets/tala.jpg"},
-{name:'คาเฟ่', price:120, img:"src/assets/ค่าเฟ่.jpg"},
-{name:'ถ้ำ', price:550, img:"src/assets/ถ้ำ.jpg"},
-{name:'ร้านอาหาร', price:100, img:"src/assets/ร้านอาหาร.jpg"},
-{name:'สวนสนุก', price:220, img:"src/assets/สวนสนุก.jpg"},
-{name:'โรงหนัง', price:180, img:"src/assets/โรงหนัง.jpg"},
-{name:'โรงแรม', price:450, img:"src/assets/โรงแรม.jpg"},
+{name:'เขา', price:500 , img:"https://scontent.fbkk29-5.fna.fbcdn.net/v/t1.15752-9/305297762_1161203148083749_7135020226248945886_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGrjmSnw5pZ64hIDubVlBN7_xuDjR6-vQz_G4ONHr69DLZ1thgDximQj49PcvCsvCQ8pB4-Mz5YxeJmkyOaQ7Jm&_nc_ohc=EBwp9vqg5f0AX9lM2em&_nc_ht=scontent.fbkk29-5.fna&oh=03_AdRdvRWwTqf3CxFQhPm0UpF6il5mwl-1GyObVKtAzHVu9Q&oe=652B99EC"},
+{name:'ทะเล', price:600, img:"https://scontent.fbkk29-8.fna.fbcdn.net/v/t1.15752-9/377107674_627792556205099_2913416014574119500_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeH8tB6n5iKd8JySTazGvHT0nuf9XMFzbpqe5_1cwXNumurN4zlrDMCai9gOqHvJjKPdKh8RTLGGr8Nj79_tXlHI&_nc_ohc=ztVMvkNF-ScAX9_o29x&_nc_ht=scontent.fbkk29-8.fna&oh=03_AdQ9ifhgHekIWTFR3nRHNX5qLV6XR_9u16nNyRkDtCsAqw&oe=652B6E2F"},
+{name:'คาเฟ่', price:120, img:"https://scontent.fbkk29-7.fna.fbcdn.net/v/t1.15752-9/251241955_664288884542808_8539650374153743123_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeH5oj5Pdm2VDxJq217SogEXMasL5pnoIWwxqwvmmeghbJ73TsXzAQGV1y7yotJkswooB-MKVDPd9ljQjM7npSYf&_nc_ohc=ApXy1Xg7C6QAX_QMIUy&_nc_ht=scontent.fbkk29-7.fna&oh=03_AdRj9i3JmzEGWgsZ_vMTuk8eoPlDwf-J96uhdamfIPYRsw&oe=652B9C43"},
+{name:'ถ้ำ', price:550, img:"https://scontent.fbkk29-9.fna.fbcdn.net/v/t1.15752-9/377109746_1048013709879468_5066377842995027571_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeHD8YoCbM6X8O_Q8NyVrtpDpN0kW7arP7Ok3SRbtqs_sz3quBPji0nhUzHqAQ7eFoswipn9fiEhN4pQl3hrw0Qo&_nc_ohc=KFDX_796hr8AX-TkYYD&_nc_ht=scontent.fbkk29-9.fna&oh=03_AdTgmgCJ6zBQNqhaUxDCHOEOzxNMoNuojmnjSMvOO7bMcA&oe=652B7C38"},
+{name:'ร้านอาหาร', price:100, img:"https://scontent.fbkk29-6.fna.fbcdn.net/v/t1.15752-9/377107638_1015105932872458_1666331389039037352_n.webp?stp=dst-webp&_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeGknYIs972g9sAqlSLCHbHyzxpZgot3MPzPGlmCi3cw_CzmzCSTdC8UUN4xhXqmUwxmh7TXg4X4M453jZYONtCt&_nc_ohc=i1NeE5H6JVgAX88gnsC&_nc_ht=scontent.fbkk29-6.fna&oh=03_AdSqMZqj7aHECOSUJoc-BQ-82fLF-jPRsEKHOQ49LTcCqg&oe=652B74DD"},
+{name:'สวนสนุก', price:220, img:"https://scontent.fbkk29-5.fna.fbcdn.net/v/t1.15752-9/263488888_518255059140193_4325282931557721667_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeF1yXwe8jopdyKKlfvEZwVBtYlr1Zg8qDy1iWvVmDyoPCSFgfQQX_ovW1R7J_nTEIaxff73O1vnxKdVILUS3sCW&_nc_ohc=_1WcHK60lFkAX_fg38A&_nc_ht=scontent.fbkk29-5.fna&oh=03_AdSYNBfwgtjX_rRnlvJAqW-ts73DOPuppA7x5kMqXcd4Uw&oe=652B9335"},
+{name:'โรงหนัง', price:180, img:"https://scontent.fbkk29-8.fna.fbcdn.net/v/t1.15752-9/258867377_933527757253810_3670563418848576213_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeEbH4C2LFODH7ClmBlw4K0Lv_YkoSwiIha_9iShLCIiFm6ocO8yOi_wfvFzNBHRG_Bn5QFx8En_YG1IBk-gmOP2&_nc_ohc=Dn1pWiD96qoAX_lkTf4&_nc_ht=scontent.fbkk29-8.fna&oh=03_AdT7gElz4p6OH-JRPWdcEMdWxc3ZAIOa83XHxLl2jHXswQ&oe=652B8DEE"},
+{name:'โรงแรม', price:450, img:"https://scontent.fbkk29-6.fna.fbcdn.net/v/t1.15752-9/256307506_1236702526795886_6021207464567372326_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeESbW1WY72q_Z8cRFyjeLFObT6_Mi89k_NtPr8yLz2T87PixCzL6VZVFdQ3R8vRlgWqFEuV1r1T-kVvE893uHLV&_nc_ohc=ttj9fvVS_dUAX8_gWrH&_nc_ht=scontent.fbkk29-6.fna&oh=03_AdTdt0wr5ja-FSIw2djHt0FjsbYLbX5iCozR8wK_LV4QBQ&oe=652B7AE6"},
 ]);
 </script>
 
@@ -149,7 +149,7 @@ const travelList = ref([
             </td>
             <td>{{ i.price}}</td>
             <td>
-              <button type="button" class="btn btn-danger" @click="removeItem(index)" >ลบรายการ</button>
+              <button type="button" class="btn btn-danger" @click="removeItem(index)" >ยกเลิกรายการ</button>
             </td>
           </tr>
         </tbody>
