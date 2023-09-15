@@ -187,7 +187,7 @@ const travelList = ref([
 <div v-if="showPopup" class="overlay">
 
   <div class="popup">
-      <h2 style="text-align: center; color:rgb(225, 255, 0) ;">ยืนยันการจองสำเร็จ</h2>
+      <h2 style="text-align: center; color:rgb(0, 0, 0) ;">ยืนยันการจองสำเร็จ</h2>
       <h3 >รายละเอียด</h3>
       <p><strong>ชื่อ-นามสกุล:</strong> {{ form_costumer.name }}</p>
       <p><strong>เบอร์โทร:</strong> {{ form_costumer.phone }}</p>
